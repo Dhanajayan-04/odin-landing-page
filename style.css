@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+                     /*Navbar section*/
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 16px 0px;
+}
+
+.header-logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f9faf8
+}
+
+.header-link {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    align-items: center;
+    font-family: sans-serif;
+    flex: 1;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+                     /*End of Navbar section*/
+
+/*spaces on both sides align both navbar and about-site at desired loaction*/
+
+.space {
+    min-width: 400px;
+}
+
+                     /*About-site section*/
+
+.conatiner2 {
+    display: flex;
+    background-color: #1f2937;
+    height: 300px;
+}
+
+/* about-site, img-box - child of .container2 */
+
+.about-site {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: start;
+    max-width: 350px;
+    gap: 8px;
+}
+
+.info {
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 0;
+    padding: 8px 24px;
+    color: #f9faf8;
+}
+
+.img-box{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex: 1;
+}
+
+/* img - child of img-box */
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 195px;
+    width: 550px;
+    color: #f9faf8;
+    background-color: darkgrey;
+}
+
+                     /* End of About site section*/
+
+
+                      /* Content section */
+
+.information-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 24px auto;
+    text-align: center;
+}
+
+.conatiner3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+/* .card-container - child of .container3 */
+
+.card-container {
+    max-width: 150px;
+    text-align: center;
+    color: rgb(72, 69, 69);
+    min-height: 300px;
+}
+
+/* .card - child of .card-container */
+.card {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+
+                       /* End of Content section */
+
+
+                     /* Quote section */
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 300px
+}
+
+.quote {
+    font-size: 34px;
+    font-style: italic;
+    max-width: 750px;
+    color: rgb(82, 81, 81);
+}
+
+.author {
+    width: 700px;
+    text-align: end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+                     /* End of quote section */
+
+                     /*Sign up section*/
+
+.container5 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    height: 100px;
+    width: 1100px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.line1 {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.line2 {
+    color: #f9faf8;
+}
+
+.button2 {
+    border: 2px solid #f9faf8;
+}
+
+                         /* End of sign up section */
+
+                         /* Footer section */
+
+.footer {
+    height: 70px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+                         /* End of Footer section*/
