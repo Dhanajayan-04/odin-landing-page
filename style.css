@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
                      /*Navbar section*/
 
 .container1 {
@@ -41,7 +40,6 @@ a {
 .space {
     min-width: 400px;
 }
-
                      /*About-site section*/
 
 .conatiner2 {
@@ -132,9 +130,7 @@ button {
     margin-bottom: 16px;
 }
 
-
                        /* End of Content section */
-
 
                      /* Quote section */
 
